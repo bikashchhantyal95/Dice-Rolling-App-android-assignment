@@ -2,6 +2,16 @@
     <string name="app_name">DICE ROLLING APP</string>
     <string name="die_app">DIE App</string>
     <string name="select_die_types">Select Die Types:</string>
+    <string name="select_a_dice_type">Select a dice type</string>
+    <string name="enter_the_dice_type">Enter the Dice type</string>
+    <string name="select_a_dice">Select a dice</string>
+    <string name="create_custom_die">Create Custom Die</string>
+    <string name="enter_die_side">Enter Die Side ...</string>
+    <string name="roll_once">Roll Once</string>
+    <string name="roll_twice">Roll Twice</string>
+    <string name="the_random_side_for_selected_dice_is">(The Random side for selected dice is)</string>
+    <string name="the_selected_dice_is">The selected dice is</string>
+    <string name="create_dice">Create Dice</string>
 
     <string-array name="dice_sides">
         <item>4</item>
