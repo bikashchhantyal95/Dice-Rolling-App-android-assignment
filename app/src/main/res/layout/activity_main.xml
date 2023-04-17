@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+<!--    spinner label-->
     <TextView
         android:id="@+id/textView9"
         android:layout_width="match_parent"
@@ -12,6 +13,7 @@
         android:text="@string/select_a_dice"
         android:textSize="24sp" />
 
+<!--    spinner to select dice-->
     <Spinner
         android:id="@+id/diceTypesId"
         android:layout_width="match_parent"
@@ -19,6 +21,8 @@
         android:minHeight="48dp"
         android:background="@drawable/spinner_background"
         />
+
+<!--    label for edit text-->
     <TextView
         android:id="@+id/textInputLabelId"
         android:layout_width="match_parent"
@@ -27,11 +31,12 @@
         android:text="@string/create_custom_die"
         android:textSize="24sp" />
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
+        <!--    edit text to get custom dice -->
         <EditText
             android:id="@+id/customDiceId"
             android:layout_width="match_parent"
@@ -44,7 +49,7 @@
             android:padding="15dp"
             android:text="@string/enter_die_side"
             tools:ignore="LabelFor" />
-
+<!--Button to create  custom dice-->
         <Button
             android:id="@+id/CreateBtn"
             android:layout_width="wrap_content"
@@ -55,11 +60,13 @@
             android:text="@string/create_dice" />
     </LinearLayout>
 
+<!--    layout to hold buttons-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
+<!--        ROll once button-->
         <Button
             android:id="@+id/RollOnceBtn"
             android:layout_width="wrap_content"
@@ -68,6 +75,7 @@
             android:text="@string/roll_once"
             android:layout_marginRight="10dp"/>
 
+<!--        Roll twice button-->
         <Button
             android:id="@+id/RollTwiceBtn"
             android:layout_width="40dp"
@@ -78,6 +86,7 @@
     </LinearLayout>
 
 
+<!--    Layout for holding result-->
     <LinearLayout
         android:layout_width="match_parent"
         android:id="@+id/parentOutputId"
@@ -107,6 +116,8 @@
             android:layout_height="match_parent"
             android:orientation="horizontal"
             >
+
+<!--            first output-->
             <TextView
                 android:id="@+id/rollOnceOutput"
                 android:layout_width="match_parent"
@@ -119,6 +130,7 @@
 
                 />
 
+<!--            second result -->
             <TextView
                 android:id="@+id/rollTwiceOutput"
                 android:layout_width="match_parent"
